@@ -4,6 +4,7 @@
 
 <!-- toc -->
 - [Installation](#installation)
+	* [Docker](#docker)
 - [Setup](#setup)
 	* [Single Server](#single-server)
 	* [Single Primary with Workers](#single-primary-with-workers)
@@ -36,6 +37,15 @@ node bin/build.js dist
 ```
 
 Replace `v1.0.0` with the desired Cronicle version from the [release list](https://github.com/jhuckaby/Cronicle/releases), or `master` for the head revision (unstable).
+
+## Docker
+
+If you'd rather run Cronicle in a container, you can deploy it with one click using the official [Easypanel](https://easypanel.io) template:
+
+[![Deploy on Easypanel][easypanel-btn]][easypanel-deploy]
+
+[easypanel-btn]: https://easypanel.io/img/deploy-on-easypanel-40.svg
+[easypanel-deploy]: https://easypanel.io/templates/cronicle
 
 # Setup
 
